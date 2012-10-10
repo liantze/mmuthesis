@@ -1,0 +1,22 @@
+BRIEF CHANGELOG
+===============
+
+v1.3 September 22 2012
+    - Chapter headings are now 12pt.
+    - Appendices text is now 10pt.
+    - Table and figure captions are now bold.
+    - Publication List now has separate sections Journal Articles and
+      Conference Proceedings.
+
+v1.2 June 9 2012
+    - PDF bookmarks are now numbered (main chapters and appendices)
+    - There is now an ``Appendices'' PDF bookmark
+    - Fixed indent of quote and quotation
+
+v1.1 July 7 2011
+    - Fixed inter-paragraph spacing to be really double.
+    - Used \setstretch{1.5} instead of \OnehalfSpacing to mimic fully Word output.
+    - Increased \afterchaptitleskip, \aftersecskip etc etc to mimic fully Word output.
+
+v1.0 July 12 2010
+    - First release (with a really awful manual)

@@ -1,0 +1,68 @@
+%!TEX ROOT=thesis.tex
+\documentclass{mmuthesis}
+%\newsubfloat{figure}
+%\includeonly{sample-chap-dummy}
+
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{enumitem}
+
+\author{Lim Lian Tze}
+\title{The \protect\texttt{mmuthesis} \protect\LaTeX{} Document Class}
+\submissionyear{2010}
+\submissionmonth{April}
+\faculty{Faculty of Information Technology}
+\degree{Master~of~Science (Information~Technology)}
+%\major{Information Technology}
+\qualification{B.Sc.~(Hons), University of Warwick, United Kingdom\\%
+M.Sc., Universiti Sains Malaysia, Malaysia}
+
+% load acronym definitions from separate file
+\loadglsentries{myacronyms}
+
+\begin{document}
+
+\frontmatter
+\makecoverandtitlepage
+\copyrightpage
+\declarationpage
+
+\acknowledgements{Thanks guys. I owe you many.}
+\dedication{To my parents, my husband, and my daughter.}
+
+\abstractfromfile{sample-abstract}
+
+{\clearpage\SingleSpacing
+\tableofcontents\clearpage
+\listoftables\clearpage
+\listoffigures\clearpage}
+
+\prefacefromfile{sample-preface}
+
+\mainmatter
+
+\include{sample-chap-intro}
+\include{sample-chap-dummy}
+
+\appendix
+\include{sample-appen-manual}
+\lipsum[3]
+\include{sample-appen-try}
+
+\backmatter
+\bibliography{llt}
+\printglossaries
+\theendnotes
+{\SingleSpacing\printindex}
+%\nociteown{Lim:2009}
+%\bibliographyown{llt}
+
+\ownpubs
+\nociteconf{Lim:2009}
+\nocitejour{Lim:Ranaivo:Tang:Polibits:2011,Lim:Ranaivo:Tang:Procedia:2011}
+\bibliographyjour{llt}
+\bibliographyconf{llt}
+
+\end{document}

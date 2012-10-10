@@ -1,0 +1,63 @@
+\documentclass{mmuthesis}
+
+%\includeonly{sample-chap-dummy}
+
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype,cmap}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows}
+
+\author{Lim Lian Tze}
+\title{The \texttt{mmuthesis} \LaTeX{} Document Class}
+\submissionyear{2010}
+\submissionmonth{April}
+\faculty{Faculty of Information Technology}
+\degree{Doctor of Philosophy}
+\qualification{B.Sc.~(Hons), University of Warwick, United Kingdom\\%
+M.Sc., Universiti Sains Malaysia, Malaysia}
+
+\newacronym[description={single word or words that are grouped in a language's lexicon}]{LI}{LI}{lexical item}
+\newacronym[firstplural={parts of speech},plural={POS},description={linguistic category of lexical items}]{POS}{POS}{part of speech}
+\newacronym[description={The application of computational linguistics principles to problems}]{NLP}{NLP}{Natural Language Processing}
+
+\begin{document}
+
+\frontmatter
+\makecoverandtitlepage
+\copyrightpage
+\declarationpage
+
+\acknowledgements{Thanks guys. I owe you many.}
+\dedication{To my parents, my husband, and my daughter.}
+
+\abstractfromfile{sample-abstract}
+
+{\clearpage\SingleSpacing
+\tableofcontents\clearpage
+\listoftables\clearpage
+\listoffigures\clearpage}
+
+\prefacefromfile{sample-preface}
+%\begin{preface}
+%\lipsum[1-5]
+%\end{preface}
+
+\mainmatter
+
+\include{sample-chap-intro}
+\include{sample-chap-dummy}
+
+\appendix
+\include{sample-appen-manual}
+\include{sample-appen-try}
+
+\backmatter
+\bibliography{llt}
+\printglossaries
+{\SingleSpacing\printindex}
+\nociteown{Lim:2009}
+\bibliographyown{llt}
+
+\end{document}
