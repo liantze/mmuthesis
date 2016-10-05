@@ -1,4 +1,4 @@
-%% mmuthesis.cls 2012/09/22 version V1.3
+%% mmuthesis.cls 2016/10/05 version V1.4
 %% 
 %% This is the unofficial MMU thesis LaTeX class for postgraduate research
 %% students of Multimedia University, Cyberjaya/Malacca, Malaysia, formatted
@@ -13,12 +13,15 @@
 %% I'll always try.
 %%
 %%
-%% Copyright (c) 2012 by Lim Lian Tze
+%% Copyright (c) 2010-2016 by Lim Lian Tze
 %%
 %% Current maintainer: Lim Lian Tze (liantze@gmail.com)
 %
 %  BRIEF CHANGELOG
 %  ===============
+% v1.4 October 5 2016
+%     - Updated copyright declaration page.
+%
 % v1.3 September 22 2012
 %     - Chapter headings are now 12pt.
 %     - Appendices text is now 10pt.
