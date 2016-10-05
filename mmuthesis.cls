@@ -209,13 +209,16 @@ MALAYSIA}\\[1em]%
 \ifpdf\pdfbookmark{Copyright Page}{copyright}\fi%
 \cftaddtitleline{toc}{chapter}{COPYRIGHT PAGE}{\thepage}%
 \begin{vplace}[1]
-\fontsize{14pt}{16pt}\selectfont The copyright of this thesis belongs to the author under the terms of the Copyright Act 1987 as qualified by Regulation 4(1) of the Multimedia University Intellectual Property Regulations. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this thesis.\par\vskip\onelineskip%
-{\raggedleft%
-\begin{tabular}{@{}r@{ }l@{}}
-\textcopyright & \theauthor, \@mtsubmissionyear\\
-& All rights reserved
-\end{tabular}%
-\par}
+\fontsize{14pt}{16pt}\selectfont %The copyright of this thesis belongs to the author under the terms of the Copyright Act 1987 as qualified by Regulation 4(1) of the Multimedia University Intellectual Property Regulations. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this thesis.\par\vskip\onelineskip%
+%{\raggedleft%
+%\begin{tabular}{@{}r@{ }l@{}}
+%\textcopyright & \theauthor, \@mtsubmissionyear\\
+%& All rights reserved
+%\end{tabular}%
+%\par}
+\setlength{\parindent}{0pt}
+\textcopyright \@mtsubmissionyear{} submission Universiti Telekom Sdn.\ Bhd. ALL RIGHTS RESERVED.\par
+Copyright of this thesis belongs to Universiti Telekom Sdn.\ Bhd. as qualified by Regulation 7.2 (c) of the Multimedia University Intellectual Property and Commercialisation Policy. No part of this publication may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Universiti Telekom Sdn.\ Bhd. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this thesis.
 \end{vplace}\clearpage%
 }
 
