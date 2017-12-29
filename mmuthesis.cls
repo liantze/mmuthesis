@@ -1,11 +1,11 @@
-%% mmuthesis.cls 2016/10/05 version V1.4
-%% 
+%% mmuthesis.cls 2017/12/29 version V1.41
+%%
 %% This is the unofficial MMU thesis LaTeX class for postgraduate research
 %% students of Multimedia University, Cyberjaya/Malacca, Malaysia, formatted
 %% according to the Guide for Preparation of Thesis published by MMU's
 %% Institute for Postgraduate Studies
-%% 
-%% 
+%%
+%%
 %% The latest version and documentation of mmu can be obtained at
 %% http://liantze.penguinattack.org/latextypesetting.html.
 %% Contact liantze AT gmail DOT com if you have any questions or
@@ -19,6 +19,9 @@
 %
 %  BRIEF CHANGELOG
 %  ===============
+% v1.41 December 29 2017
+%     - Removed "submission" from declaration page.
+%
 % v1.4 October 5 2016
 %     - Updated copyright declaration page.
 %
@@ -220,7 +223,7 @@ MALAYSIA}\\[1em]%
 %\end{tabular}%
 %\par}
 \setlength{\parindent}{0pt}
-\textcopyright \@mtsubmissionyear{} submission Universiti Telekom Sdn.\ Bhd. ALL RIGHTS RESERVED.\par
+\textcopyright \@mtsubmissionyear{} Universiti Telekom Sdn.\ Bhd. ALL RIGHTS RESERVED.\par
 Copyright of this thesis belongs to Universiti Telekom Sdn.\ Bhd. as qualified by Regulation 7.2 (c) of the Multimedia University Intellectual Property and Commercialisation Policy. No part of this publication may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Universiti Telekom Sdn.\ Bhd. Due acknowledgement shall always be made of the use of any material contained in, or derived from, this thesis.
 \end{vplace}\clearpage%
 }
@@ -279,7 +282,7 @@ I hereby declare that the work has been done by myself and no portion of the wor
 %%%%%%%%%%%%
 \renewcommand\chapterheadstart{\normalsize\vskip\beforechapskip}
 \setlength\beforechapskip{0pt}
-\setlength\midchapskip{3\onelineskip}
+\setlength\midchapskip{2\onelineskip}
 \setlength\afterchapskip{2\onelineskip minus \onelineskip}
 \renewcommand*\chapnamefont{\normalsize\bfseries}
 \renewcommand*\chapnumfont{\normalsize\bfseries\centering}
@@ -394,7 +397,7 @@ I hereby declare that the work has been done by myself and no portion of the wor
 %%%%%%%%%%%%
 \RequirePackage[nosectionbib]{apacite}
 % new counter for enumerating bibitems
-\newcounter{lbibcount} 
+\newcounter{lbibcount}
 \bibliographystyle{apacite}
 \renewcommand\bibliographytypesize{\footnotesize}
 \setlength\bibitemsep{\onelineskip}
